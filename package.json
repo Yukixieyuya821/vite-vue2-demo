@@ -9,7 +9,7 @@
     "lint": "eslint --ext .js,.vue . --fix --quiet",
     "prepare": "husky install"
   },
-  "main": "./dist/heg-libs.umd.js",
+  "main": "./dist/index.js",
   "files": [
     "dist"
   ],
