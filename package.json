@@ -1,0 +1,39 @@
+{
+  "name": "vite-vue2",
+  "version": "1.0.0",
+  "description": "vite-vue2",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "sass": "sass --watch ./template/components/style/scss:./template/components/style/css",
+    "lint": "eslint --ext .js,.vue . --fix --quiet",
+    "prepare": "husky install"
+  },
+  "main": "./dist/heg-libs.umd.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "heg",
+    "ui",
+    "vite",
+    "vue2"
+  ],
+  "author": "yuki",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.17.0",
+    "husky": "^7.0.2",
+    "sass": "^1.39.2",
+    "vite": "^2.4.0",
+    "vite-plugin-eslint": "^1.3.0",
+    "vite-plugin-vue2": "^1.8.1",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
